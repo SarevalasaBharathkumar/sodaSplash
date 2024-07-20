@@ -1,0 +1,103 @@
+.form-box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    position: relative;
+}
+
+label {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.form-box {
+    background-color: rgba(94, 112, 119, 0.5);
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    width: fit-content; /* Allows the box to size based on content */
+    max-width: 500px; /* Optional: Set a maximum width if needed */
+    position: relative;
+}
+
+.form-box-container:before {
+    background-image: url("https://r1.wallpaperflare.com/path/295/136/870/smoothies-fruits-colorful-vitamins-f14a8a0448965b5e3832f0900b0fad4b.jpg?timestamp=1717521652401");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    display: block;
+    filter: brightness(40%);
+}
+
+.form-box .headding {
+    font-size: 32px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    color: #fff;
+    text-align: center; /* Center the heading text */
+}
+
+.form-box .form-control{
+    background: transparent;
+}
+
+.link{
+    position:relative;
+    align-items: center;
+    margin:auto;
+}
+.form-box button{
+    background-color: deepskyblue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px 0px;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .form-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .form-box .headding {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .form-box button {
+        font-size: 16px;
+        padding: 8px;
+        margin: 15px 0px;
+    }
+}
+
+@media (max-width: 480px) {
+    .form-box {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .form-box .headding {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+
+    .form-box button {
+        font-size: 14px;
+        padding: 6px;
+        margin: 10px 0px;
+    }
+}
