@@ -13,7 +13,7 @@ export default function SignUp() {
         setIsError(false);
 
         try {
-            const response = await fetch("http://localhost:5000/api/creatuser", {
+            const response = await fetch("https://soda-splash-qgda.vercel.app/api/creatuser", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

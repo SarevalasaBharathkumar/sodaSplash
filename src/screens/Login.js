@@ -15,7 +15,7 @@ export default function Login() {
     setIsError(false);
 
     try {
-      const response = await fetch("http://localhost:5000/api/loginUser", {
+      const response = await fetch("https://soda-splash-qgda.vercel.app/api/loginUser", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

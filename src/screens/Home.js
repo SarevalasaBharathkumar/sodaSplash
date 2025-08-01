@@ -20,7 +20,7 @@ export default function Home() {
 
   const loaddata = async () => {
     try {
-      let response = await fetch("http://localhost:5000/api/itemsdata", {
+      let response = await fetch("soda-splash-qgda.vercel.app/api/itemsdata", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
