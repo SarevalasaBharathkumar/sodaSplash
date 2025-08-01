@@ -19,7 +19,7 @@ export default function Head() {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-info">
         <div className="container-fluid">
-          <NavLink className="navbar-brand fs-1 fst-italic" to='/'>ChillMart</NavLink>
+          <NavLink className="navbar-brand fs-1 fst-italic " to='/'>ChillMart</NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
