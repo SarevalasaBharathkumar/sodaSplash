@@ -7,7 +7,7 @@ const helmet = require('helmet');
 require('dotenv').config();
 
 app.use(cors({
-    origin: ['http://localhost:3000', 'https://soda-splash-qgda.vercel.app/'],
+    origin: ['http://localhost:3000', 'https://soda-splash.vercel.app/'],
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     allowedHeaders: 'Origin,X-Requested-With,Content-Type,Accept'
 }));
